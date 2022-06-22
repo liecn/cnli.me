@@ -1,0 +1,47 @@
+<script type="text/javascript">
+
+  /* All the code for the comment section */
+ 
+  // Disqus js code START
+  var disqus_config = function() {
+    this.page.url = '{{ site.url }}/{{ site.domain}}/';
+    this.page.identifier = '{{site.domain}}';
+    console.log(this.page.url, this.page.identifier)
+  };
+ 
+  function toggleDisqusComments(container) {
+    if ($(container).has("iframe").length > 0) {
+      var iframe_id = $(container + " iframe").attr("id");
+      $(container + " iframe#" + iframe_id).toggle("fast", "linear");
+      return;
+    }
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+ 
+  }
+  // Disqus code END
+ 
+  // Enable bootstrap CSS tooltip option.
+  $(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+ </script>
+ 
+ <!-- Put the "ld-comment-container" DIV to wherever the comment blocks are shown. -->
+ 
+ <div class="post-footer">
+   <div class="ld-comment-container">
+     <div id="disqus_container">
+       <div style="margin-bottom:20px" class="right"></div>
+       <!-- <a href="#comment-disqus" class="comment" onclick="toggleDisqusComments('#disqus_container');">
+         Add <strong>Your Comments</strong> for wanted conferences, webpage function demands, etc.
+       </a> -->
+       <div id="disqus_thread"></div>
+     </div>
+   </div>
+ </div>
+ 

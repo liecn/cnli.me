@@ -1,0 +1,15 @@
+---
+- name: Mobile Computing 
+  sub: MC
+- name: System Architecture
+  sub: SA
+- name: Computer-human Interaction 
+  sub: CHI
+- name: Machine Learning
+  sub: ML
+- name: Computer Vision
+  sub: CV
+- name: Data Mining
+  sub: DM
+- name: Security & Privacy
+  sub: SP

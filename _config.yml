@@ -1,0 +1,29 @@
+title: CS Conference Tracker # (Maintained by @abhshkdz, modified by @liecn)
+description: Track the top computer science conferences, covering the mobility of systems, artificial intelligence, data communication, computer-human interaction, etc.
+
+url: "https://cnli.me"
+
+conf_author: Abhishek Das
+author: Chenning Li
+
+domain: "conference"
+baseurl: ""
+
+conf_twitter_username: abhshkdz
+conf_twitter_hashtag: machinelearning
+conf_github_username: abhshkdz
+conf_github_repo: ai-deadlines
+
+twitter_username: MuleSciFi
+twitter_hashtag: network
+github_username: liecn
+github_repo: cnli.me
+
+markdown: kramdown
+# ga_id: UA-36274081-2
+
+include: ['_pages']
+
+# Disqus ID
+disqus:
+  shortname: cs-conference-tracker

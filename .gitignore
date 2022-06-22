@@ -1,0 +1,10 @@
+.DS_Store
+chenningCV/
+.jekyll-cache
+~*
+_site/
+.sass-cache/
+.jekyll-metadata
+node_modules
+vendor
+chenningCV.zip
