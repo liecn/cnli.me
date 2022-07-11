@@ -37,6 +37,8 @@ h1 {
     /*font-family: 'century gothic',sans-serif;*/
     /*text-transform: uppercase;*/
     letter-spacing: 1px;
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
     /*font-weight: 500;*/
     /*font-size: 30px;*/
 }
@@ -44,7 +46,7 @@ h1 {
 h2 {
     /*font: normal 125% 'century gothic', arial, sans-serif;*/
     /*color: #A4AA04;*/
-    color: #002060;
+    color: #000;
 }
 
 h3 {
@@ -198,7 +200,8 @@ a:not([href]):before {
     display: block;
     content: "";
     height: 60px;
-    margin: -60px 0 0;
+    margin: -50px 0 0;
+    /* padding: 5px 0; */
 }
 
 a:hover {
@@ -322,14 +325,14 @@ ol li {
 
 .avatar {
     float: left;
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     text-align: center;
     overflow: hidden;
     border: 5px solid #FFF;
     margin-right: 50px;
-    /* border-radius: 150px 150px 150px 150px; */
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 10px 10px 10px 10px;
+    /* border-radius: 50px 50px 50px 50px; */
 }
 
 .name {
@@ -389,7 +392,7 @@ ol li {
     width: 100%;
     background: #FAFAFA;
     /* border-bottom: 1px solid #5c307d; */
-    border-bottom: 1px solid #A31F34;
+    border-bottom: 1px solid #000;
     position: fixed;
     top: 0px;
 }
