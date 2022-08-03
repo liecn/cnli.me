@@ -1,5 +1,5 @@
 ## BioPage: [cnli.me](https://cnli.me/)
-We thank [Longfei Shangguan](https://shanggdlk.github.io/) for the template of this Bio Page.
+We thank [Chenshu wu](https://cswu.me/) for providing the design template of this webpage.
 
 ## Conference Tracker Page: [cnli.me/conference](https://cnli.me/conference/)
 We thank [abhshkdz](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM) for the template of this Conference Tracker Page.
