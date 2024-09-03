@@ -1,3 +1,7 @@
+## Build
+```bash
+bundle exec jekyll serve
+```
 ## BioPage: [cnli.me](https://cnli.me/)
 We thank [Chenshu wu](https://cswu.me/) for providing the design template of this webpage.
 

@@ -1,5 +1,38 @@
 /*color: #18453b*/
 
+@media screen and (max-width: 768px) {
+    #menubar {
+        display: none;
+    }
+    .avatar {
+        display: none;
+    }
+    #logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 150px;
+        /* Adds space below the name section */
+    }
+    .name h1 {
+        font-size: 2em;
+        /* Adjust the font size for better visibility on small screens */
+        margin-bottom: 10px;
+    }
+    .name h2 {
+        font-size: 1.2em;
+        /* Adjust the font size for smaller screens */
+        margin-bottom: 5px;
+        /* Adds space between the lines */
+    }
+    .contact-links a {
+        display: inline-block;
+        margin: 5px 10px;
+        /* Add spacing between the contact links */
+    }
+}
+
 body {
     /*font: normal 0.95em 'Roboto', Helvetica, Arial, 'century gothic', 'Microsoft YaHei', arial, sans-serif;*/
     /*background: #f3f5f8;  */
