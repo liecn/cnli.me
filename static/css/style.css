@@ -12,24 +12,33 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-bottom: 150px;
-        /* Adds space below the name section */
+        min-height: 50vh;
+        /* Ensures the logo section takes up at least half the screen height */
+        margin-bottom: 5vh;
+        /* Adds some space below the logo section */
     }
     .name h1 {
         font-size: 2em;
         /* Adjust the font size for better visibility on small screens */
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+        /* Reduce the bottom margin to save space */
     }
     .name h2 {
         font-size: 1.2em;
         /* Adjust the font size for smaller screens */
-        margin-bottom: 5px;
-        /* Adds space between the lines */
+        margin-bottom: 3px;
+        /* Reduce the bottom margin to save space */
     }
     .contact-links a {
         display: inline-block;
-        margin: 5px 10px;
-        /* Add spacing between the contact links */
+        margin: 3px 5px;
+        /* Reduce spacing between the contact links to save space */
+    }
+    #bio {
+        margin-top: calc(10vh + 5vh);
+        /* Dynamic margin based on viewport height */
+        padding-top: 10px;
+        /* Adds padding above the bio section to ensure there's space */
     }
 }
 
