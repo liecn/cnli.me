@@ -7,48 +7,6 @@
     .avatar {
         display: none;
     }
-    #header {
-        position: relative;
-        /* Ensure the header is positioned relative to its normal flow */
-        padding-bottom: 20px;
-        /* Adds padding to create space below the header */
-    }
-    #site_content {
-        position: relative;
-        /* Ensure the site content is also positioned relative */
-        margin-top: 100px;
-        /* Adds top margin to ensure it doesn't overlap with the header */
-        padding-top: 40px;
-        /* Adds padding at the top for additional space */
-    }
-    #bio {
-        padding-top: 50px;
-        /* Adds some padding to the top of the bio section */
-    }
-    #logo {
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        text-align: left;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        /* Adds space below the logo */
-    }
-    .name h1 {
-        font-size: 1.8em;
-        /* Adjust font size for better fit on small screens */
-        margin-bottom: 10px;
-    }
-    .name h2 {
-        font-size: 1.2em;
-        /* Adjust font size for better fit */
-        margin-bottom: 8px;
-    }
-    .contact-links a {
-        margin-bottom: 20px;
-        /* Add space after the contact links */
-        /* Adjust spacing between contact links */
-    }
 }
 
 body {
@@ -385,7 +343,7 @@ ol li {
     text-align: center;
     overflow: hidden;
     border: 5px solid #FFF;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     border-radius: 10px 10px 10px 10px;
     /* border-radius: 50px 50px 50px 50px; */
 }
@@ -393,11 +351,11 @@ ol li {
 .name {
     float: right;
     margin-left: 1px;
-    width: 60%;
+    /* width: 60%; */
 }
 
 #logo {
-    width: 90%;
+    width: 80%;
     max-width: 1280px;
     position: relative;
     height: 200px;
